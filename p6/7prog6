@@ -1,0 +1,6 @@
+;the halt need not go at the end
+begin
+ goto a
+b: halt
+a: goto b
+end

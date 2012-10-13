@@ -1,0 +1,4 @@
+;undeclared variable
+begin
+ write x
+end

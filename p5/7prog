@@ -1,0 +1,44 @@
+;test jumps, numbers less than 10 for success, greater than 100 for
+; failure
+begin
+  if 2!=2 goto a1
+  write 1
+  goto a2
+a1: 
+  write 101
+a2:
+  if 3!=2 goto b1
+  write 102
+  goto b2
+b1: 
+  write 2
+b2:
+
+  if 3<2 goto aa1
+  write 3
+  goto aa2
+aa1: 
+  write 103
+aa2:
+  if 2<3 goto bb1
+  write 104
+  goto bb2
+bb1: 
+  write 4
+bb2:
+
+  if 21<=3 goto ca1
+  write 5
+  goto ca2
+ca1: 
+  write 105
+ca2:
+  if 2<=22 goto cb1
+  write 106
+  goto cb2
+cb1: 
+  write 6
+cb2:
+
+halt
+end

@@ -1,0 +1,8 @@
+begin
+goto b
+I can put anything here 
+and it should
+still compile
+b: 
+halt
+end

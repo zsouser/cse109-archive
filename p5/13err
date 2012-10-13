@@ -1,0 +1,4 @@
+; missing end
+begin
+ write 2
+ halt

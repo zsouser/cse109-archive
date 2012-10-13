@@ -1,0 +1,21 @@
+x
+y
+begin
+x=22
+write x
+
+if x > 0 goto one
+halt
+one:
+  write 33
+read y
+write y ; comment
+  ; another comment
+x=y
+write x
+read x
+read x
+;read x
+a:halt
+end
+ -21 3 4

@@ -1,0 +1,11 @@
+begin
+ if ( 2*(3+4)-5)*2< 17 goto a
+ write 1
+ goto b
+a: write 101
+b: if ( 2*(3+4)-5)*2 == (20-2) goto a1
+ write 102
+ halt
+a1: write 2
+ halt
+end

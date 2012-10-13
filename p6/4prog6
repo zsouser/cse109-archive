@@ -1,0 +1,8 @@
+x
+begin
+ x=13*(4-2)*8/26  ; 8
+ write x
+ halt
+end
+
+  

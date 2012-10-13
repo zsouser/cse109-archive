@@ -1,0 +1,7 @@
+; two labels on one line
+b
+begin
+ goto a
+a: b:
+ halt
+end

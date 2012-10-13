@@ -1,0 +1,10 @@
+; multiple labels okay
+
+begin
+ a:
+ b:
+ c:
+  write 3
+ d:
+  goto a:
+end

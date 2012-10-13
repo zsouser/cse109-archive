@@ -1,0 +1,5 @@
+begin
+ write 2-3-4    ;-5
+ write 20/5/4   ; 1
+ halt
+end

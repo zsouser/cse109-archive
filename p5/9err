@@ -1,0 +1,8 @@
+; duplicate line label
+begin
+a:
+ write 3;
+b:
+ write 4;
+a:
+end

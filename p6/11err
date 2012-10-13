@@ -1,0 +1,5 @@
+;undeclared variable
+begin
+ read x
+end
+7

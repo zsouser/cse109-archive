@@ -1,0 +1,19 @@
+;test jumps, numbers less than 10 for success, greater than 100 for
+; failure
+x
+begin
+ x=4
+ write x
+  if 2==3 goto a1
+  write 1
+  goto a2
+a1: 
+  write 101
+a2:
+  if 2==2 goto b1
+  write 102
+  goto b2
+b1:
+  write 2
+halt
+end

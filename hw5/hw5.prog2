@@ -1,0 +1,15 @@
+x
+count
+sum
+begin
+sum=0
+count=0
+pos:
+read x
+count=count+1
+sum=x*x*x
+if count<5 goto pos
+write sum
+halt
+end
+-3 4 8 3 -12

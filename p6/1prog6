@@ -1,0 +1,10 @@
+x
+y
+begin
+ x=4
+ y=5
+ write (x-3)*(y-2)/(x+y-6)  ; 1
+ write 2+3*(4-6-7)-8+27     ; -6
+ write 19%13%4; 2
+b: halt
+end

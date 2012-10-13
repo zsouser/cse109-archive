@@ -1,0 +1,9 @@
+ xxxxxxxxxxxxxxxxxxxxxxxxxx
+x
+begin
+ if x==y goto a3
+a3:
+ x=4
+ xxxxxxxxxxxxxxxxxxxxxxxxxx=4
+halt
+end

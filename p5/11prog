@@ -1,0 +1,10 @@
+x
+begin
+ x=1
+ write x
+ write 2
+ read x
+ write x
+ halt
+end
+3
